@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: rgb(146, 149, 189);
+}
+
+body {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #ea580c;
+}
+
+.page-container {
+    display: flex;
+    width: 98%;
+    margin-left: 1%;
+    height: 98%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    background-color: #f97316;
+    border-radius: 30px;
+}
+
+.side-bar {
+    width: clamp(250px, 25%, 300px);
+    border: solid;  
+}
+
+.header {
+    height: 3.5cm;
+    width: 100%;
+    display: grid;
+    border: solid
+}
+
+.main-content {
+    display: flex;
+    height: 100%;
+    margin-right: 0;
+    border: solid;
+}
+
+.right-hemisphere {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: solid;
+}
