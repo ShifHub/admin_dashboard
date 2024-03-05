@@ -5,20 +5,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="page-container">
         <div class="side-bar">
-            Side Bar
+            <div class="dashboard">
+                <div class="db-title db-container">
+                    <img src="assets/icons/view-dashboard.png" alt="">
+                    <h4>Dashboard</h5>
+                </div>
+
+                <div>
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/home.png" alt="">
+                        <h5>Home</h5>
+                    </div>
+                
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/card-account-details-outline.png" alt="">
+                        <h5>Profile</h5>
+                    </div>
+
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/message-reply.png" alt="">
+                        <h5>Messages</h5>
+                    </div>
+
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/clock-time-four.png" alt="">
+                        <h5>History</h5>
+                    </div>
+
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/clipboard-multiple.png" alt="">
+                        <h5>Tasks</h5>
+                    </div>
+
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/account-group.png" alt="">
+                        <h5>Communities</h5>
+                    </div>
+                </div>
+
+
+                <div class="db-section-spacing">
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/cog.png" alt="">
+                        <h5>Settings</h5>
+                    </div>
+
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/help-box.png" alt="">
+                        <h5>Support</h5>
+                    </div>
+
+                    <div class="db-actions db-container">
+                        <img src="assets/icons/shield-check.png" alt="">
+                        <h5>Privacy</h5>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div class="right-hemisphere">
             <div class="header">
-                Header
+                <div class="search-bar-container">
+                    <div class="search-bar">
+                        <form action="">
+                            <button type="submit" class="search-button"></button>
+                            <input class="search-textfield" type="text" placeholder="Search.." name="search"></input>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="profile-display">
+                    <img class="profile-pic" src="assets/profiles/bellsprout.png" alt="">
+                    <div class="greetings">
+                        <h4>Hi there,</h4>
+                        <h2>Bellsprout!</h2>
+                    </div>
+                </div>
+
+                <div class="action-buttons-container">
+                    <button class="action-button">New</button>
+                    <button class="action-button">Upload</button>
+                    <button class="action-button">Share</button>
+                </div>
+
+                <div class="account-display">
+                    <button class="notification-bell"></button>
+                    <img class="account-icon" src="assets/profiles/bellsprout.png" alt="">
+                    <h3 class="account-name">My Account</h3>
+                </div>
             </div>
     
             <div class="main-content">
-                Main Content
+                <h4 class="project-section-title">Your Projects</h4>
+                <div class="projects-container">
+                    <div class="project-cell">
+                        <h4>Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="project-cell-buttons">
+                            <button class="pc-button"><img src="assets/icons/star-outline.png" alt=""></button>
+                            <button class="pc-button"><img src="assets/icons/eye-outline.png" alt=""></button>
+                            <button class="pc-button"><img src="assets/icons/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="project-cell">
+                        <h4>Not As Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div class="project-cell-buttons">
+                            <button class="pc-button"><img src="assets/icons/star-outline.png" alt=""></button>
+                            <button class="pc-button"><img src="assets/icons/eye-outline.png" alt=""></button>
+                            <button class="pc-button"><img src="assets/icons/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="project-cell">
+                        <h4>Game Changer</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="project-cell-buttons">
+                            <button class="pc-button"><img src="assets/icons/star-outline.png" alt=""></button>
+                            <button class="pc-button"><img src="assets/icons/eye-outline.png" alt=""></button>
+                            <button class="pc-button"><img src="assets/icons/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="project-cell">
+                        <h4>Really Sweet Project</h4>
+                        <p>Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Id volutpat lacus laoreet non. Sit amet facilisis magna etiam tempor orci eu lobortis elementum.</p>
+                        <div class="project-cell-buttons">
+                            <button class="pc-button"><img src="assets/icons/star-outline.png" alt=""></button>
+                            <button class="pc-button"><img src="assets/icons/eye-outline.png" alt=""></button>
+                            <button class="pc-button"><img src="assets/icons/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="announcement-section-title">Announcements</h4>
+                <div class="announcements-container">
+                    <div class="announcements-board">
+                        <div class="announcement-cell">
+                            <h5>Site Maintenance</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <hr>
+                        <div class="announcement-cell">
+                            <h5>Community Share Day</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <hr>
+                        <div class="announcement-cell">
+                            <h5>Updated Privacy Policy</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="trending-section-title">Trending</h4>
+                <div class="trending-container">
+                    <div class="trending-board">
+                        <div class="trending-cell">
+                            <img id="raichu" src="assets/profiles/raichu.png" alt="">
+                            <div class="about-trend">
+                                <h4>@BlessYouRaichu</h4>
+                                <p>Lightning Fast Strategies</p>
+                            </div>
+                        </div>
+                        <div class="trending-cell">
+                            <img id="hitmonchan" src="assets/profiles/hitmonchan.png" alt="">
+                            <div class="about-trend">
+                                <h4>@Hitmonchan</h4>
+                                <p>Hitting The Target</p>
+                            </div>
+                        </div>
+                        <div class="trending-cell">
+                            <img id="flareon" src="assets/profiles/flareon.png" alt="">
+                            <div class="about-trend">
+                                <h4>@FlareIsOn</h4>
+                                <p>Spark Your Flame</p>
+                            </div>
+                        </div>
+                        <div class="trending-cell">
+                            <img id="geodude" src="assets/profiles/geodude.png" alt="">
+                            <div class="about-trend">
+                                <h4>@TheDude</h4>
+                                <p>Getting Hands On</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
