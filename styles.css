@@ -274,7 +274,7 @@ body {
     grid-template-columns: minmax(340px, 8fr) minmax(300px, 2fr);
     grid-template-rows: 50px 1fr 50px 1fr;
     background: #d1d5db;
-    overflow-y: hidden;
+    overflow-y: scroll;
 }
 
 .main-content > div {
@@ -400,7 +400,6 @@ body {
     padding: 5px;
     padding-left: 7%;
     align-items: center;
-    
 }
 
 .trending-cell > img {
